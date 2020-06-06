@@ -52,6 +52,15 @@ class Song
     song = self.new_by_name(song_name.gsub(".mp3", ""))
     song.artrist_name = artist_name
     song 
-  end 
+  end
   
+  def self.create_from_filename(file_name)
+    song = self.new_from_filename(file-name)
+    song.save
+    song
+  end
+  
+  def self.destroy_all
+    @@all.clear 
+  end
 end 
