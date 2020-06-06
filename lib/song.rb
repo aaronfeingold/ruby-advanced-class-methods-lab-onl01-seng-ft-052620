@@ -47,4 +47,8 @@ class Song
     self.all.sort {|a, b| a.name <=> b.name }  
   end 
   
+  def self.new_from_filename
+    
+  end 
+  
 end 
