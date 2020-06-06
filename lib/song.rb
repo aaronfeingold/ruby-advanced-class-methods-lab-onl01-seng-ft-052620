@@ -17,7 +17,7 @@ class Song
     song.save
     # returns the new song that was created 
     song 
-   end 
+  end 
    
   def self.new_by_name(name)
     song = self.new
@@ -40,5 +40,7 @@ class Song
       song 
     else
       self.create_by_name(name)
-  end  
+    end 
+  end 
+  
 end 
