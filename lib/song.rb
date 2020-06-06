@@ -11,8 +11,10 @@ class Song
   end
   
   def self.create
-    # instantiates 
-    # and saves the song 
+    # instantiates
+    song = Song.new
+    # and saves the song
+    
     # returnsthe new song that was created 
   
   
